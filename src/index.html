@@ -7,5 +7,19 @@
     <script src="https://kit.fontawesome.com/05c5795d1a.js" crossorigin="anonymous"></script>
 <script defer src="main.js"></script></head>
 <body>
+	<section class="stopwatch">
+		<h1>Stop-watch</h1>
+		<div id="time-set">
+			<input type="number" id="hours-st" min="0" max="24"> 
+			<input type="number" id="minutes-st" min="0" max="60"> 
+			<input type="number" id="seconds-st" min="0" max="60"> 
+			<button id="start">Start</button>
+		</div>
+		<div id="time-run">
+			<p id="time">12:00:00</p>
+			<button id="pause">Pause</button>
+			<button id="stop">Stop</button>
+		</div>
+	</section>
 </body>
 </html>
